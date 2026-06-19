@@ -1,23 +1,21 @@
-<div class="contenedor">
+<main class="contenedor">
   <a href="https://github.com/LucianoMartLera">
     <img class="foto-perfil" src="/img/github.png" alt="">
   </a>
-    <div class="texto">
-      <h1>Proyectos en Github</h1>
-      <h1><p>Proyectos escolares:</p></h1>
-      <ul>
-        @for (proyecto of proyectosList; track $index){
-          <li>
-            <a [href]="proyecto.url">
-              {{
-                proyecto.nombre
-              }}
-            </a>
-          </li>
-        }
-      </ul>
-      <div>
-        <p>Aprende más sobre mis proyectos en mi perfil de Github.Dando click en la imagen</p>
-      </div>
+  <div class="texto">
+    <h1>Proyectos en Github</h1>
+    <h2>Proyectos escolares:</h2>
+    <ul>
+      @for (proyecto of proyectosList; track $index){
+        <li>
+          <a [href]="proyecto.url">
+            {{ proyecto.nombre }}
+          </a>
+        </li>
+      }
+    </ul>
+    <div>
+      <p>Aprende más sobre mis proyectos en mi perfil de Github. Dando click en la imagen</p>
     </div>
-</div>
+  </div>
+</main>
