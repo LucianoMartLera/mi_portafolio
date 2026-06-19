@@ -1,0 +1,29 @@
+{
+  "perfil": {
+    "url_github": "https://github.com/LucianoMartLera",
+    "imagen_perfil": "/img/github.png",
+    "descripcion": "Aprende más sobre mis proyectos en mi perfil de Github.Dando click en la imagen"
+  },
+  "proyectos": [
+      {
+        "nombre": "Proyecto de POO",
+        "url": "https://github.com/LucianoMartLera/furby_POO.git"
+      },
+      {
+        "nombre": "Proyecto de Cuento",
+        "url": "https://github.com/franpacheco-cpp/ladrido-del-inca.git"
+      },
+      {
+        "nombre": "Proyecto de Curso para Adultos",
+        "url": "https://github.com/rostalbon/curso-adultos.git"
+      },
+      {
+        "nombre": "Proyecto de API de Pokemon",
+        "url": "https://github.com/LucianoMartLera/API_DE_POKEMON.git"
+      },
+      {       
+        "nombre": "Proyecto de Mascotas Perdidas",
+        "url": "https://github.com/Gatuflow/mascotas_perdidas.git"
+      }
+    ]
+}
